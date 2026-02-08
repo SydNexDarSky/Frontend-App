@@ -4,6 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, Three official plugins are available:
 This is NeXuS-BLAZE messing with this shit 
+Sydney Has Joined the party of messing with documentations
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
