@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home() {
   return (
-    <section>
-      <h1>This is the Home Page</h1>
+    <section className="bg-red-700">
+      <h2>This is the Home Page</h2>
     </section>
   )
 }
