@@ -1,3 +1,5 @@
+// This is the main Layout for the app, it will contain the header (navbar), and footer
+
 import { Outlet } from "react-router-dom";
 
 export default function RootLayout() {
