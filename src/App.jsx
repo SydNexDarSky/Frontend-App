@@ -4,6 +4,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Example from "./pages/Example";
+import New from "./pages/New";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="example" element={<Example />} />
+          <Route path="new" element={<New />} />
           
         </Route>
         
