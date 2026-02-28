@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
 export default function New() {
   return (
-    <section className="new">
-      <h1>This is a new page</h1>
-      <button>Click me</button>
-    </section>
+    <div className="newpage">
+      <h1 className="newpage-h1">This is a New page</h1>
+      <button>CLick me</button>
+    </div>
   )
 }
 
