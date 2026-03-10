@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 export default function RootLayout() {
   return (
     <div>
+      {/* Put the navbar here */}
       <main>
         <Outlet /> {/* Child routes render here */}
       </main>

@@ -1,3 +1,4 @@
+/* Do not edit below code */
 /* Reset CSS (normalize) */
 *,
 *::before,
@@ -80,4 +81,35 @@ a:hover {
 footer {
   position: absolute;
   bottom: 0;
+}
+
+/* Do not edit above code */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newpage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newpage-h1 {
+  font-size: 4rem;
+  color: red;
+}
+
+#home-h1 {
+  font-size: 5rem;
 }
