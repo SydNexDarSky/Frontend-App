@@ -6,7 +6,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Example from "./pages/Example";
-import New from "./pages/New";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="example" element={<Example />} />
-          <Route path="new" element={<New />} />
+          <Route path="new" element={<Signup />} />
+          <Route path="signup" element={<Signup />} />
           
         </Route>
         

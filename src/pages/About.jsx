@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
+    <section className="min-h-screen bg-blue-500">
       {/* Hero Section */}
       <div className="py-20 px-6 max-w-6xl mx-auto">
         <div className="mb-16 text-center">
