@@ -36,8 +36,8 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
-  color: #333;
-  background-color: #f9f9f9;
+  color: #ad9c9c;
+  background-color: #240774;
 }
 
 h1, h2, h3, h4, h5, h6 {

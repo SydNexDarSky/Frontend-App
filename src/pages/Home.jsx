@@ -85,7 +85,10 @@ export default function Home() {
           <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-3xl p-12 text-center text-white shadow-2xl">
             <h3 className="text-4xl font-bold mb-4">Ready to Transform Your Learning?</h3>
             <p className="text-xl mb-8 text-gray-100">Join thousands of students discovering their potential every day</p>
-            <button className="px-12 py-4 bg-white text-purple-600 font-bold text-lg rounded-full hover:bg-gray-100 transform hover:scale-110 transition-all duration-300 shadow-lg">
+            <button
+              onClick={() => navigate("/signup")}
+              className="px-12 py-4 bg-white text-purple-600 font-bold text-lg rounded-full hover:bg-gray-100 transform hover:scale-110 transition-all duration-300 shadow-lg"
+            >
               Start Your Free Trial
             </button>
           </div>
