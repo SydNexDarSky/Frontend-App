@@ -40,6 +40,10 @@ body {
   background-color: #240774;
 }
 
+#root {
+  min-height: 100vh;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -78,12 +82,22 @@ a:hover {
   text-decoration: underline;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
+/* Do not edit above code */
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Do not edit above code */
+.app-main {
+  flex: 1;
+}
+
+.app-footer {
+  padding: 1rem;
+  text-align: center;
+}
 
 .home {
   width: 100%;
