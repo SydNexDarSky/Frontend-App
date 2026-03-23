@@ -7,18 +7,18 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Example from "./pages/Example";
 import New from "./pages/New";
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-      
-        <Route path="/" element={<RootLayout />}>
         
+        <Route path="/" element={<RootLayout />}>
+          
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="example" element={<Example />} />
           <Route path="new" element={<New />} />
+          <Route path="signup" element={<New />} />
           
         </Route>
         

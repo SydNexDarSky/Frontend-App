@@ -1,11 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import AnotherSection from "../components/AnotherSection";
 
 export default function Home() {
 
+  const navigate = useNavigate();
+
   return (
     <>
-      <section className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden">
+      <section className="min-h-screen bg-blue-900 text-white overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-0 left-0 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
@@ -25,7 +28,7 @@ export default function Home() {
             </p>
             
             {/* CTA Button */}
-            <button className="px-10 py-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 rounded-full text-white font-bold text-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 mb-12">
+            <button onClick={() => navigate("/signup")} className="px-10 py-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 rounded-full text-white font-bold text-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 mb-12">
               Get Started Now
             </button>
           </div>
@@ -82,7 +85,10 @@ export default function Home() {
           <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-3xl p-12 text-center text-white shadow-2xl">
             <h3 className="text-4xl font-bold mb-4">Ready to Transform Your Learning?</h3>
             <p className="text-xl mb-8 text-gray-100">Join thousands of students discovering their potential every day</p>
-            <button className="px-12 py-4 bg-white text-purple-600 font-bold text-lg rounded-full hover:bg-gray-100 transform hover:scale-110 transition-all duration-300 shadow-lg">
+            <button
+              onClick={() => navigate("/signup")}
+              className="px-12 py-4 bg-white text-purple-600 font-bold text-lg rounded-full hover:bg-gray-100 transform hover:scale-110 transition-all duration-300 shadow-lg"
+            >
               Start Your Free Trial
             </button>
           </div>

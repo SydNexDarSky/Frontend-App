@@ -4,12 +4,12 @@ import { Outlet } from "react-router-dom";
 
 export default function RootLayout() {
   return (
-    <div>
+    <div className="app-shell">
       {/* Put the navbar here */}
-      <main>
+      <main className="app-main">
         <Outlet /> {/* Child routes render here */}
       </main>
-      <footer>© 2026 My App</footer>
+      <footer className="app-footer">© 2026 My App</footer>
     </div>
   );
 }
