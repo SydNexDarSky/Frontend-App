@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+@layer base {
+	body {
+		@apply bg-white text-black;
+	}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight font-bold mb-2 transition-all duration-150 ease-out;
+  }
+
+  h1 {
+    @apply md:text-6xl text-5xl;
+  }
+  
+  h2 {
+    @apply md:text-5xl text-4xl;
+  }
+
+  h3 {
+    @apply md:text-4xl text-3xl;
+  }
+
+  h4 {
+    @apply md:text-3xl text-2xl;
+  }
+
+  h5 {
+    @apply md:text-2xl text-xl;
+  }
+
+  h6 {
+    @apply md:text-xl text-lg;
+  }
+
+  p {
+    @apply md:text-lg transition-all duration-150 ease-out;
+  }
+}
+
+.primary-btn {
+	@apply border border-black rounded bg-black text-white py-4 px-6 text-xl transition-all hover:bg-white hover:text-black cursor-pointer;
+}

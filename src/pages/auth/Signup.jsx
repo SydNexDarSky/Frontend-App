@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 
-export default function New() {
+export default function Signup() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
