@@ -6,12 +6,13 @@ export default function Landing() {
 
 	return (
 		<>
-		  <section className="flex flex-col-reverse md:flex-row w-full min-h-screen p-8">
+		  <section className="flex flex-col-reverse md:flex-row w-full min-h-screen justify-start items-center p-8 gap-12 md:gap-0">
         {/* Hero Section */}
         <div className="flex flex-col justify-center items-start p-4 gap-2">
           <h1 className="flex flex-col font-extrabold">
             Connect with your {" "}
             <ReactTyped
+              className="text-green-400"
               strings={[
                 "Mentors",
                 "Students",
@@ -32,8 +33,8 @@ export default function Landing() {
             Get Started
           </button>
         </div>
-        <div className="h-24 w-full bg-black w-[40%]">
-          Hello
+        <div className="h-24 w-full w-[40%] flex justify-center items-center p-4">
+          <img src="/puzzle-connect-join-assemble-puzzle-svgrepo-com.svg" className=" h-[200px] md:h-[400px]" />
         </div>
         </section>
 		</>

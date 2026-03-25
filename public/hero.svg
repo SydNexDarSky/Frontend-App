@@ -1,0 +1,76 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+:root{
+  --green:#22c55e;
+}
+
+/* floating animation */
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* cap toss animation */
+.cap {
+  animation: toss 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes toss {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-35px) rotate(15deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+/* confetti animation */
+.confetti {
+  animation: fall 4s linear infinite;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-20px); opacity:1;}
+  100% { transform: translateY(420px); opacity:0;}
+}
+
+</style>
+
+<!-- Confetti -->
+<circle class="confetti" cx="60" cy="10" r="4" fill="#22c55e"/>
+<circle class="confetti" cx="100" cy="20" r="3" fill="#22c55e"/>
+<circle class="confetti" cx="320" cy="15" r="4" fill="#22c55e"/>
+<circle class="confetti" cx="360" cy="30" r="3" fill="#22c55e"/>
+
+<!-- Graduate body -->
+<g class="float">
+
+<!-- head -->
+<circle cx="210" cy="150" r="40" fill="#F3F4F6"/>
+
+<!-- gown -->
+<path d="M140 320 L280 320 L250 200 L170 200 Z" fill="var(--green)" />
+
+<!-- arms -->
+<rect x="120" y="210" width="40" height="18" rx="9" fill="var(--green)"/>
+<rect x="260" y="210" width="40" height="18" rx="9" fill="var(--green)"/>
+
+<!-- diploma -->
+<rect x="285" y="205" width="40" height="16" rx="4" fill="#ffffff" stroke="var(--green)" stroke-width="3"/>
+<rect x="300" y="205" width="8" height="16" fill="var(--green)"/>
+
+</g>
+
+<!-- graduation cap -->
+<g class="cap">
+<polygon points="160,110 260,110 210,80" fill="var(--green)" />
+<rect x="185" y="110" width="50" height="12" rx="4" fill="var(--green)"/>
+<line x1="235" y1="110" x2="250" y2="135" stroke="var(--green)" stroke-width="3"/>
+<circle cx="250" cy="135" r="4" fill="var(--green)"/>
+</g>
+
+</svg>
