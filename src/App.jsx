@@ -3,10 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 
 // Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Example from "./pages/Example";
-import New from "./pages/New";
+import Landing from "./pages/Landing";
+import Signup from "./pages/auth/Signup";
+
 function App() {
   return (
     <BrowserRouter>
@@ -14,11 +13,8 @@ function App() {
         
         <Route path="/" element={<RootLayout />}>
           
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="example" element={<Example />} />
-          <Route path="new" element={<New />} />
-          <Route path="signup" element={<New />} />
+          <Route index element={<Landing />} />
+          <Route path="auth/signup" element={<Signup />} />
           
         </Route>
         
