@@ -6,7 +6,7 @@ export default function Navbar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<nav className="flex justify-between items-center w-full px-4 sm:px-8 py-4 bg-white shadow-md">
+		<nav className="fixed flex justify-between items-center w-full px-4 sm:px-8 py-4 bg-white shadow-md">
 			{/* Logo and Brand */}
 			<div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate("/")}> 
 				<img src="/vite.svg" alt="Educonnect Logo" className="w-8 h-8 sm:w-10 sm:h-10" />
