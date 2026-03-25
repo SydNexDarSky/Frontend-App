@@ -24,7 +24,7 @@ export default function Landing() {
                   loop
                 />
               </h1>
-              <p className="text-base sm:text-lg text-gray-300 max-w-lg">
+              <p className="text-base sm:text-lg text-gray-800 max-w-lg">
                 Unlock your potential and connect with millions of learners worldwide. Start your learning journey today.
               </p>
               
