@@ -68,19 +68,19 @@ export default function Navbar() {
 					<div className="flex flex-col gap-2 pt-2 border-t">
 						<button 
 							onClick={() => {
-							navigate("/auth/login");
-							setIsMenuOpen(false);
-						}}
-						className="w-full px-4 py-2 text-gray-900 font-semibold hover:text-green-400 text-left"
+								navigate("/auth/login");
+								setIsMenuOpen(false);
+							}}
+							className="w-full px-4 py-2 text-gray-900 font-semibold hover:text-green-400 text-left"
 						>
 							Login
 						</button>
 						<button 
 							onClick={() => {
-							navigate("/auth/signup");
-							setIsMenuOpen(false);
-						}}
-						className="w-full primary-btn py-2"
+								navigate("/auth/signup");
+								setIsMenuOpen(false);
+							}}
+							className="w-full primary-btn py-2"
 						>
 							Sign Up
 						</button>
