@@ -12,6 +12,7 @@ export default function Landing() {
           <h1 className="flex flex-col font-extrabold">
             Connect with your {" "}
             <ReactTyped
+              className="text-green-400"
               strings={[
                 "Mentors",
                 "Students",
@@ -32,8 +33,8 @@ export default function Landing() {
             Get Started
           </button>
         </div>
-        <div className="h-24 w-full bg-black w-[40%]">
-          Hello
+        <div className="h-24 w-full w-[40%] flex justify-center items-center p-4">
+          <img src="/hero.svg" />
         </div>
         </section>
 		</>

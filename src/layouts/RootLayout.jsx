@@ -9,7 +9,7 @@ export default function RootLayout() {
       <main className="w-full min-h-screen">
         <Outlet /> {/* Child routes render here */}
       </main>
-      <footer className="w-full h-max p-4 bg-black text-white">© 2026 My App</footer>
+      <footer className="w-full h-max p-4 bg-black text-green-500">© 2026 My App</footer>
     </div>
   );
 }
