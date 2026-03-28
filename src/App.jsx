@@ -4,6 +4,7 @@ import RootLayout from "./layouts/RootLayout";
 
 // Pages
 import Landing from "./pages/Landing";
+import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<RootLayout />}>
           
           <Route index element={<Landing />} />
+          <Route path="auth/login" element={<Login />} />
           <Route path="auth/signup" element={<Signup />} />
           
         </Route>
